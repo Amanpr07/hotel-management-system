@@ -62,7 +62,7 @@ int main()
 			{
 				Spasta =Spasta + q;
 				Total_pasta =Total_pasta + (q*250);
-				cout<<"\n\t"<<q<<" Pasta is the order";	
+				cout<<"\n\t"<<q<<" Pasta order is placed";	
 			}
 			else
 			cout<<"\n\n\t\tOnly "<<Qpasta-Spasta<<" Pastas Remaining in stock";
@@ -75,7 +75,7 @@ int main()
 			{
 				Sburger =Sburger + q;
 				Total_burger =Total_burger + q*50;
-				cout<<"\n\n\t\t"<<q<<" Burger is the order";	
+				cout<<"\n\n\t\t"<<q<<" Burger order is place";	
 			}
 			else
 			cout<<"\n\tOnly "<<Qburger-Sburger<<" Burgers Remaining in stock";
@@ -88,7 +88,7 @@ int main()
 			{
 				Snoodles =Snoodles + q;
 				Total_noodles =Total_noodles + (q*200);
-				cout<<"\n\n\t\t"<<q<<" Noodles is the order";	
+				cout<<"\n\n\t\t"<<q<<" Noodles order is placed";	
 			}
 			else
 			cout<<"\n\tOnly "<<Qnoodles-Snoodles<<" Noodles Remaining in stock";
@@ -101,7 +101,7 @@ int main()
 			{
 				Sshake =Sshake + q;
 				Total_shake =Total_shake + q*170;
-				cout<<"\n\n\t\t"<<q<<" shakes is the order";	
+				cout<<"\n\n\t\t"<<q<<" shakes order is placed";	
 			}
 			else
 			cout<<"\n\tOnly "<<Qshake-Sshake<<" shakes Remaining in stock";
@@ -114,7 +114,7 @@ int main()
 			{
 				Schicken =Schicken + q;
 				Total_chicken =Total_chicken + q*160;
-				cout<<"\n\n\t\t"<<q<<" Chicken-rolls is the order";	
+				cout<<"\n\n\t\t"<<q<<" Chicken-rolls order is placed";	
 			}
 			else
 			cout<<"\n\tOnly "<<Qchicken-Schicken<<" Chicken-roll Remaining in stock";
